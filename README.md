@@ -7,3 +7,15 @@ _한성대학교 웹프레임워크1 기말 프로젝트(2023-1)_
 - HTML, CSS, Js
 - React
 - Redux
+
+### 브랜치 룰
+#### Prefix
+- `feat`
+- `refactor`
+- `fix`
+
+#### Suffix
+- `기능명`
+
+#### 예시
+`feat/home_ui`
