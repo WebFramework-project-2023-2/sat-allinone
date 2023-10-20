@@ -1,0 +1,27 @@
+
+.nav{
+    background-color: #eee;
+    width: 100vw;
+    height: 70px;
+}
+.bodyBox{
+    display: flex;
+    width: 100vw;
+    /* height: 100vh; */
+    min-height: 800px;
+}
+.sidebarBox{
+    background-color: antiquewhite;
+    width: 180px;
+}
+.contentBox{
+    background-color: #eaa;
+    flex: 1;
+    
+}
+.footBox{
+    background-color: aqua;
+    bottom: 0px;
+    width: 100vw;
+    height: 100px;
+}
