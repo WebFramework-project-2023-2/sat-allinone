@@ -11,8 +11,8 @@
     min-height: 800px;
 }
 .sidebarBox{
-    background-color: antiquewhite;
-    width: 180px;
+   
+    width: 200px;
 }
 .contentBox{
     background-color: #eaa;
@@ -24,4 +24,13 @@
     bottom: 0px;
     width: 100vw;
     height: 100px;
+}
+.navItem{
+    padding: 15px;
+    padding-left: 20px;
+    border-top-right-radius: 5px ;
+    border-top-left-radius: 5px ;
+    border-top: 1px solid rgb(232, 230, 230);
+    border-bottom: 0.7px solid rgb(210, 209, 209);
+
 }
