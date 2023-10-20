@@ -15,7 +15,8 @@
     width: 200px;
 }
 .contentBox{
-    background-color: #eaa;
+    padding: 20px;
+    
     flex: 1;
     
 }
@@ -31,6 +32,7 @@
     border-top-right-radius: 5px ;
     border-top-left-radius: 5px ;
     border-top: 1px solid rgb(232, 230, 230);
+    border-right: 0.7px solid rgb(210, 209, 209) ;
     border-bottom: 0.7px solid rgb(210, 209, 209);
 
 }
