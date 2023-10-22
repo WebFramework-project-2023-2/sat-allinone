@@ -8,13 +8,17 @@ import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 const white = 'rgba(255, 255, 255, 1)';
 const BLUE = 'rgba(207, 226, 255, 1)';
 
-export default function SidebarButton({ children, eventKey, callback }) {
+export default function SidebarButton({ children, eventKey, setTitle, callback} ) {
     const { activeEventKey } = useContext(AccordionContext);
 
     const decoratedOnClick = useAccordionButton(
         eventKey,
         () => callback && callback(eventKey),
     );
+
+    const cardOnclick = (children)=>{
+        setTitle(children)
+    }
 
     const isCurrentEventKey = activeEventKey === eventKey;
 
@@ -23,13 +27,10 @@ export default function SidebarButton({ children, eventKey, callback }) {
         <div
             className={styles.navItem}
             style={{ backgroundColor: isCurrentEventKey ? BLUE : white }}
-            onClick={decoratedOnClick}
+            onClick={()=>{cardOnclick(children); decoratedOnClick()}}
         >
             {children}
         </div>
-        
-        
-        
         
     );
 }

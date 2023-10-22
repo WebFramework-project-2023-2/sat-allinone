@@ -1,10 +1,17 @@
 
+.mainContainer{
+    position: relative;
+    width: 100vh;
+    min-height: 100vh;
+}
+
 .nav{
     background-color: #eee;
     width: 100vw;
     height: 70px;
 }
 .bodyBox{
+    margin-bottom: 1px;
     display: flex;
     width: 100vw;
     /* height: 100vh; */
@@ -15,16 +22,18 @@
     width: 200px;
 }
 .contentBox{
-    padding: 20px;
-    
+    padding: 50px;
+    margin-bottom: 50px;
     flex: 1;
     
 }
 .footBox{
     background-color: aqua;
-    bottom: 0px;
+    position: absolute;
+    bottom: 0;
     width: 100vw;
     height: 100px;
+    
 }
 .navItem{
     padding: 15px;

@@ -4,15 +4,15 @@ import Accordion from 'react-bootstrap/Accordion';
 import SidebarButton from "./SidebarButton";
 import Card from 'react-bootstrap/Card';
 
-export default function Sidebar(){
+export default function Sidebar({setTitle}){
     return(
         <div>
-            <div style={{height:50}}>
+            <div style={{height:100}}>
             </div>
             <Accordion defaultActiveKey="0">
                 <Card>
                     <Card.Header style={{padding:0}}>
-                        <SidebarButton eventKey='0'>
+                        <SidebarButton eventKey='0' setTitle = {setTitle}>
                             전체
                         </SidebarButton>
                     </Card.Header>
@@ -20,28 +20,28 @@ export default function Sidebar(){
                 
                 <Card>
                     <Card.Header style={{padding:0}}>
-                        <SidebarButton eventKey='1'>
+                        <SidebarButton eventKey='1' setTitle = {setTitle}>
                             국어
                         </SidebarButton>
                     </Card.Header>
                 </Card>
                 <Card>
                     <Card.Header style={{padding:0}}>
-                        <SidebarButton eventKey='2'>
+                        <SidebarButton eventKey='2' setTitle = {setTitle}>
                             수학
                         </SidebarButton>
                     </Card.Header>
                 </Card>
                 <Card>
                     <Card.Header style={{padding:0}}>
-                        <SidebarButton eventKey='3'>
+                        <SidebarButton eventKey='3' setTitle = {setTitle}>
                             영어
                         </SidebarButton>
                     </Card.Header>
                 </Card>
                 <Card>
                     <Card.Header style={{padding:0}}>
-                        <SidebarButton eventKey='4'>
+                        <SidebarButton eventKey='4' setTitle = {setTitle}>
                             사회
                         </SidebarButton>
                     </Card.Header>
@@ -53,7 +53,7 @@ export default function Sidebar(){
                 </Card>
                 <Card>
                     <Card.Header style={{padding:0}}>
-                        <SidebarButton eventKey='5'>
+                        <SidebarButton eventKey='5' setTitle = {setTitle}>
                             과학
                         </SidebarButton>
                     </Card.Header>
@@ -68,14 +68,14 @@ export default function Sidebar(){
                 </Card>
                 <Card>
                     <Card.Header style={{padding:0}}>
-                        <SidebarButton eventKey='6'>
+                        <SidebarButton eventKey='6' setTitle = {setTitle}>
                             한국사
                         </SidebarButton>
                     </Card.Header>
                 </Card>
                 <Card>
                     <Card.Header style={{padding:0}}>
-                        <SidebarButton eventKey='7'>
+                        <SidebarButton eventKey='7' setTitle = {setTitle}>
                             제2 외국어
                         </SidebarButton>
                     </Card.Header>

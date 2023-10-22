@@ -4,10 +4,10 @@ import Sidebar from "./Sidebar";
 
 
 
-export default function SidebarBox(){
+export default function SidebarBox({setTitle}){
     return(
         <div className={styles.sidebarBox}>
-            <Sidebar/>
+            <Sidebar setTitle = {setTitle}/>
         </div>
     );
 }
