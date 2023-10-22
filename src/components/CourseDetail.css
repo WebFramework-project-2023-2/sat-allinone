@@ -1,0 +1,16 @@
+.background {
+    position: absolute;
+    width: 100vw;
+    height: 475px;
+    
+    background: #173A5A;
+}
+
+.__thumbnail {
+    position: absolute;
+    width: 500px;
+    height: 330px;
+    left: 50px;
+    top: 60px;
+    background: white;
+}
