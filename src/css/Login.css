@@ -1,0 +1,30 @@
+.centered-container {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+.rounded-input {
+    width: 30.94vw;
+    height: 6.89vh;
+    border-radius: 20px;
+    border: 1px solid #A0ADBA;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.rounded-button {
+    width: 30.94vw;
+    height: 6.89vh;
+    border-radius: 20px;
+    border: 1px solid #96CCFF;
+    background-color: #BADDFE;
+    padding: 0 15px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.text-style {
+    color: #A0ADBA;
+}
