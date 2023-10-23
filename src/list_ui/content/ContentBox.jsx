@@ -21,11 +21,12 @@ export default function ContentBox({title}){
         .then((res) => res.json())
         .then((data)=>{
             setLecture(data);
-            setFilterLecture(data.filter((value) => value.subject === title))
-            setCurrentPost(filterLecture.slice(indexOfFirstPost, indexOfLastPost))
+            setFilterLecture(data.filter((value) => title==="전체" ? value : value.subject === title))
+            setCurrentPost(filterLecture.slice(indexOfFirstPost, indexOfLastPost));
+            setPage(1);
         })
         
-    },[title, page])
+    },[title])
     // useEffect(()=>{
     //     console.log("Sdf")
     //     setCurrentPost(filterLecture.slice(indexOfFirstPost, indexOfLastPost))
@@ -37,7 +38,7 @@ export default function ContentBox({title}){
         <>
         <div className={styles.contentBox}>
             <h2>{title}</h2>
-            <h6>{`${filterLecture.length}의 결과가 있습니다.`}</h6>
+            <h6>{`${filterLecture.length}개의 결과가 있습니다.`}</h6>
             <div style={{height:50}}/>
             <ContentList currentPost={currentPost}/>
             <Paging style={styles.pagination} page = {page} count={filterLecture.length} handlePageChange={handlePageChange}/>

@@ -131,6 +131,34 @@
         "teacher" : "ddd",
         "price" : "80000",
         "image" : "  "
+    },
+    {
+        "name" : "독서",
+        "subject" : "국어",
+        "teacher" : "ddd",
+        "price" : "80000",
+        "image" : "  "
+    },
+    {
+        "name" : "독서",
+        "subject" : "국어",
+        "teacher" : "ddd",
+        "price" : "80000",
+        "image" : "  "
+    },
+    {
+        "name" : "독서",
+        "subject" : "국어",
+        "teacher" : "ddd",
+        "price" : "80000",
+        "image" : "  "
+    },
+    {
+        "name" : "독서",
+        "subject" : "국어",
+        "teacher" : "ddd",
+        "price" : "80000",
+        "image" : "  "
     }
 
 ]
