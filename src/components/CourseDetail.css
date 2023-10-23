@@ -8,9 +8,72 @@
 
 .__thumbnail {
     position: absolute;
-    width: 500px;
-    height: 330px;
-    left: 50px;
-    top: 60px;
+    width: 400px;
+    height: 300px;
+    left: 80px;
+    top: 80px;
     background: white;
+}
+
+.__category {
+    position: absolute;
+    color: white;
+    top: 80px;
+    left: 550px;
+}
+
+.__title {
+    position: absolute;
+    color: white;
+    top: 110px;
+    left: 550px;
+}
+
+.__teacher {
+    position: absolute;
+    color: white;
+    top: 160px;
+    left: 550px;
+}
+
+.__detail-1 {
+    position: absolute;
+    color: white;
+    top: 250px;
+    left: 550px;
+}
+
+.__detail-2 {
+    position: absolute;
+    color: white;
+    top: 300px;
+    left: 550px;
+}
+
+.__detail-3 {
+    position: absolute;
+    color: white;
+    top: 350px;
+    left: 550px;
+}
+
+.__detail-4 {
+    position: absolute;
+    color: white;
+    top: 250px;
+    left: 850px;
+}
+
+.__detail-5 {
+    position: absolute;
+    color: white;
+    top: 300px;
+    left: 850px;
+}
+
+.__detail-6 {
+    position: absolute;
+    color: white;
+    top: 350px;
+    left: 850px;
 }
