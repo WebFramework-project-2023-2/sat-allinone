@@ -27,10 +27,6 @@ export default function ContentBox({title}){
         })
         
     },[title])
-    // useEffect(()=>{
-    //     console.log("Sdf")
-    //     setCurrentPost(filterLecture.slice(indexOfFirstPost, indexOfLastPost))
-    // },[title, page])
     useEffect(() => {
         setCurrentPost(filterLecture.slice(indexOfFirstPost, indexOfLastPost));
     }, [filterLecture, page]);
