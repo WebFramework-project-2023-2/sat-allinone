@@ -3,11 +3,13 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import styles from '../css/Main.module.css';
-export default function ContentList({ filterLecture }) {
+import Paging from './Paging';
+export default function ContentList({ currentPost }) {
+  
   return (
     <>
       <Row>
-      {filterLecture.map((lecture, index) => (
+      {currentPost.map((lecture, index) => (
         <>
         
          <Col ms = {3} key={index}>
@@ -25,7 +27,9 @@ export default function ContentList({ filterLecture }) {
           
         </>
       ))}
+      
       </Row>
+      
     </>
   );
 }
