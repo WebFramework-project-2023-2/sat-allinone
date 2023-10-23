@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom"
-import {PATH} from "../constants/path";
+import {PATH} from "../../constants/path";
 
 import * as S from "./style"
 

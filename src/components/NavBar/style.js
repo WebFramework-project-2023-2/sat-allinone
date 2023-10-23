@@ -72,6 +72,9 @@ const LoginButton = styled.button`
   color: #FFF;
   background-color: #96CCFF;
   
+  width: 112px;
+  height: 48px;
+  
   text-align: center;
   font-family: 'PartialSansKR-Regular', serif;
   font-size: 25px;
