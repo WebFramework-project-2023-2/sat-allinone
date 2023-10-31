@@ -2,26 +2,34 @@ import React, { useState } from 'react';
 import InputField from './LoginInputField';
 import { Link } from 'react-router-dom';
 
-function LoginForm() {
+function LoginForm({ accounts }) {
   const [credentials, setCredentials] = useState({
     email: '',
     password: '',
     name: '',
-  });
+  })
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setCredentials(prevState => ({
       ...prevState,
       [name]: value
-    }));
-  };
+    }))
+  }
 
-  // 폼 제출시 실행할 함수
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Credentials:', credentials);
-  };
+    let password = accounts[credentials.email]
+    if (!password) {
+      alert('존재하지 않는 이메일입니다.')
+      return
+    }
+    if (password['password'] !== credentials.password) {
+      alert('비밀번호가 틀렸습니다.')
+      return
+    }
+    alert("로그인 성공!")
+  }
 
   const inputFieldArgs = ['id', 'type', 'name', 'placeholder', 'value', 'onChange']
   const detailArgs = [
