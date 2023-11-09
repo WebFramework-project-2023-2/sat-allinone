@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1",
+    "thumbnail": "../assets/1.png",
+    "category": "수학",
+    "title": "현우진의 킬링 캠프",
+    "teacher": "현우진 선생님",
+    "grade": "고3·N수",
+    "structure": "각 40분씩, 총 24강",
+    "productionMethod": "동영상 스튜디오 강의",
+    "type": "모의고사, 수능(파이널)",
+    "duration": "59(교재배송기간포함)",
+    "additional": "인덱스 자막"
+  },
+  {
+    "id": "2",
+    "thumbnail": "../assets/1.png",
+    "category": "국어",
+    "title": "현우진의 킬링 캠프",
+    "teacher": "현우진 선생님",
+    "grade": "고3·N수",
+    "structure": "각 40분씩, 총 24강",
+    "productionMethod": "동영상 스튜디오 강의",
+    "type": "모의고사, 수능(파이널)",
+    "duration": "59(교재배송기간포함)",
+    "additional": "인덱스 자막"
+  },
+  {
+    "id": "3",
+    "thumbnail": "../assets/1.png",
+    "category": "사탐",
+    "title": "현우진의 킬링 캠프",
+    "teacher": "현우진 선생님",
+    "grade": "고3·N수",
+    "structure": "각 40분씩, 총 24강",
+    "productionMethod": "동영상 스튜디오 강의",
+    "type": "모의고사, 수능(파이널)",
+    "duration": "59(교재배송기간포함)",
+    "additional": "인덱스 자막"
+  },
+  {
+    "id": "4",
+    "thumbnail": "../assets/1.png",
+    "category": "과탐",
+    "title": "현우진의 킬링 캠프",
+    "teacher": "현우진 선생님",
+    "grade": "고3·N수",
+    "structure": "각 40분씩, 총 24강",
+    "productionMethod": "동영상 스튜디오 강의",
+    "type": "모의고사, 수능(파이널)",
+    "duration": "59(교재배송기간포함)",
+    "additional": "인덱스 자막"
+  }
+]
