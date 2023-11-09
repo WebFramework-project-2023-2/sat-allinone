@@ -46,18 +46,73 @@ export default function Sidebar({setTitle}){
                         </SidebarButton>
                     </Card.Header>
                     <Accordion.Collapse eventKey="4">
-                        <Card.Body>
-                            지리
+                        <Card.Body style={{padding:0}}>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='5' setTitle = {setTitle}>
+                                        생활과 윤리
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='6' setTitle = {setTitle}>
+                                        윤리와 사상
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='7' setTitle = {setTitle}>
+                                        한국지리
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='8' setTitle = {setTitle}>
+                                        세계지리
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='9' setTitle = {setTitle}>
+                                        동아시아사
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='10' setTitle = {setTitle}>
+                                        경제
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='11' setTitle = {setTitle}>
+                                        정치와 법
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='12' setTitle = {setTitle}>
+                                        사회문화
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
                 <Card>
                     <Card.Header style={{padding:0}}>
-                        <SidebarButton eventKey='5' setTitle = {setTitle}>
+                        <SidebarButton eventKey='13' setTitle = {setTitle}>
                             과학
                         </SidebarButton>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="5">
+                    <Accordion.Collapse eventKey="13">
                         <Card.Body>
                             물리
                             화학
@@ -68,18 +123,18 @@ export default function Sidebar({setTitle}){
                 </Card>
                 <Card>
                     <Card.Header style={{padding:0}}>
-                        <SidebarButton eventKey='6' setTitle = {setTitle}>
+                        <SidebarButton eventKey='14' setTitle = {setTitle}>
                             한국사
                         </SidebarButton>
                     </Card.Header>
                 </Card>
                 <Card>
                     <Card.Header style={{padding:0}}>
-                        <SidebarButton eventKey='7' setTitle = {setTitle}>
+                        <SidebarButton eventKey='15' setTitle = {setTitle}>
                             제2 외국어
                         </SidebarButton>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="7">
+                    <Accordion.Collapse eventKey="15">
                         <Card.Body>
                             베트남어
                             아랍어

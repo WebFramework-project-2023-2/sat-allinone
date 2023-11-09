@@ -21,7 +21,7 @@ export default function ContentBox({title}){
         .then((res) => res.json())
         .then((data)=>{
             setLecture(data);
-            setFilterLecture(data.filter((value) => title==="전체" ? value : value.subject === title))
+            setFilterLecture(data.filter((value) => title==="전체" ? value : value.subject.includes(title)))
             setCurrentPost(filterLecture.slice(indexOfFirstPost, indexOfLastPost));
             setPage(1);
         })

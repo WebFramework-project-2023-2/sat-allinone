@@ -159,6 +159,13 @@
         "teacher" : "ddd",
         "price" : "80000",
         "image" : "  "
+    },
+    {
+        "name" : "생활과 윤리",
+        "subject" : "사회 생활과 윤리",
+        "teacher" : "ddd",
+        "price" : "80000",
+        "image" : "  "
     }
 
 ]
