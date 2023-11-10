@@ -1,7 +1,6 @@
 [
   {
     "id": "1",
-    "thumbnail": "../assets/1.png",
     "category": "수학",
     "title": "현우진의 킬링 캠프",
     "teacher": "현우진 선생님",
@@ -14,7 +13,6 @@
   },
   {
     "id": "2",
-    "thumbnail": "../assets/1.png",
     "category": "국어",
     "title": "현우진의 킬링 캠프",
     "teacher": "현우진 선생님",
@@ -27,7 +25,6 @@
   },
   {
     "id": "3",
-    "thumbnail": "../assets/1.png",
     "category": "사탐",
     "title": "현우진의 킬링 캠프",
     "teacher": "현우진 선생님",
@@ -40,7 +37,6 @@
   },
   {
     "id": "4",
-    "thumbnail": "../assets/1.png",
     "category": "과탐",
     "title": "현우진의 킬링 캠프",
     "teacher": "현우진 선생님",
