@@ -4,11 +4,9 @@
     height: 100vh;
 }
 
-.bodyBox{
-    margin-bottom: 1px;
-    display: flex;
-    width: 100vw;
-    min-height: 800px;
+.wrapper{
+    height: 100%;
+    margin-bottom: 100px;
 }
 
 .nav{
@@ -59,9 +57,181 @@
     flex-grow: 1;
 }
 
+.searchBar{
+    flex-shrink: 0;
+}
+
+.searchButton{
+    width: 62px;
+    height: 62px;
+    flex-shrink: 0;
+
+    background: #FFF;
+    border: none;
+}
+
+.searchButton:hover{
+    background: #FFF;
+    border: none;
+}
+
+.searchButton:focus,
+.searchButton:active{
+    background: #FFF !important;
+    border: none;
+}
+
+.searchButtonIcon{
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.banner{
+    width: 1121px;
+    height: 136px;
+    flex-shrink: 0;
+
+    background: #252525;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* 필요에 따라 여러 줄에 걸쳐 배치하도록 설정 */
+
+    margin: 5px;
+}
+
+.rounded-image-container{
+    width: 46px;
+    height: 42px;
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px; /* 이미지 간격을 조정하세요 */
+}
+
+.rounded-image{
+    width: 100%; /* 이미지의 너비를 100%로 조정하여 동그란 형태 유지 */
+    height: auto; /* 이미지의 높이를 자동으로 조정 */
+    border-radius: 50%;
+}
+
+.lesson-list{
+    width: 550px;
+    height: 320px;
+}
+
+.lecture-list-button{
+    display: inline-flex;
+    padding: 12px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #FFFEFE;
+}
+
+.lecture-list-button:hover,
+.lecture-list-button:focus,
+.lecture-list-button:active{
+    background: #FFFEFE;
+}
+
+.lecture-list-button-text{
+    color: #2492FA;
+    text-align: center;
+    font-family: Inter sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.auto-slide-carousel{
+    width: 549px;
+    height: 316px;
+    flex-shrink: 0;
+}
+
+.recommended-text-container{
+    width: 449px;
+    height: 162px;
+    flex-shrink: 0;
+}
+
+.recommended-text-title{
+    color: #0583FA;
+    font-family: Inter sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.recommended-text-content{
+    color: #000;
+    font-family: Inter sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    max-width: 300px; /* Adjust the maximum width as needed */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+/* AutoSlideBackgroundComponent.css */
+
+.background-image {
+    width: 100%;
+    height: 100vh; /* 전체 화면 높이에 맞게 조절 */
+    background-size: cover;
+    background-position: center;
+}
+
+.text-container {
+    color: #000;
+    text-align: center;
+    font-family: Zen Dots sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-praise-container{
+    width: 1280px;
+    height: 197px;
+    flex-shrink: 0;
+    background: #96CCFF;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main-praise-content{
+    width: 582px;
+    height: 88px;
+    flex-shrink: 0;
+    margin-top: 50px;
+
+    color: #000;
+    text-align: center;
+    font-family: Zen Dots sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+}
+
 .footer{
-   position: absolute;
-    bottom: 0;
-    width: 100vw;
-    height: 100px;
+    position : relative;
+    transform : translateY(-100%);
 }
