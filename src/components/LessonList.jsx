@@ -6,7 +6,7 @@ const LessonList = () => {
     const lessons = [
         {
             id: 1,
-            thumbnail: '/assets/images/Rectangle 31.png',
+            thumbnail: '/assets/images/ex_slide_img3.png',
             title: '리액트 기초 강의',
             teacher: '현우진'
         },
