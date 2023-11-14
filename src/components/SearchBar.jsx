@@ -16,7 +16,7 @@ const SearchBar = () => {
                             <Form.Control className="flex-grow-0 h-100" type="text" placeholder="검색어를 입력하세요" />
                         </Form.Group>
                         <Button  className="searchButton flex-grow-0" variant="primary" type="submit" onClick={handleSearch}>
-                            <img className="searchButtonIcon" src={require("../assets/icons/search_icon.png")} alt="search icon" />
+                            <img className="searchButtonIcon" src="/assets/icons/search_icon.png" alt="search icon" />
                         </Button>
                     </Form>
                 </Col>
