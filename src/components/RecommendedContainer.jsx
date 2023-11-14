@@ -2,7 +2,7 @@ import React from "react";
 import RecommendedText from "./navbar/RecommendedText";
 import LectureListButton from "./LectureListButton";
 import Container from "react-bootstrap/Container";
-import AutoSlidCarousel from "./AutoSlidCarousel";
+import AutoSlidCarousel from "./AutoSlideCarousel";
 import LessonList from "./LessonList";
 import {Col, Row} from "react-bootstrap";
 
