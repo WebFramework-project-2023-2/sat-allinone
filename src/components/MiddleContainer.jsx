@@ -51,7 +51,7 @@ const MiddleContainer = () => {
         <Container>
             <Row xs={1} md={2} lg={3} xl={6} className="g-4 justify-content-center">
                 {subjects.map((sub, index) => (
-                    <Col key={index} className="mb-3">
+                    <Col key={index} className='mb-3'>
                         <SubjectButton subjectIcon={sub.subjectIcon} subjectName={sub.subjectTitle} />
                     </Col>
                 ))}
