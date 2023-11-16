@@ -113,31 +113,116 @@ export default function Sidebar({setTitle}){
                         </SidebarButton>
                     </Card.Header>
                     <Accordion.Collapse eventKey="13">
-                        <Card.Body>
-                            물리
-                            화학
-                            생명과학
-                            지구과학
+                        <Card.Body  style={{padding:0}}>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='14' setTitle = {setTitle}>
+                                        물리
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='15' setTitle = {setTitle}>
+                                        화학
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='16' setTitle = {setTitle}>
+                                        생명과학
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='17' setTitle = {setTitle}>
+                                        지구과학
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
                 <Card>
                     <Card.Header style={{padding:0}}>
-                        <SidebarButton eventKey='14' setTitle = {setTitle}>
+                        <SidebarButton eventKey='18' setTitle = {setTitle}>
                             한국사
                         </SidebarButton>
                     </Card.Header>
                 </Card>
                 <Card>
                     <Card.Header style={{padding:0}}>
-                        <SidebarButton eventKey='15' setTitle = {setTitle}>
+                        <SidebarButton eventKey='19' setTitle = {setTitle}>
                             제2 외국어
                         </SidebarButton>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="15">
-                        <Card.Body>
-                            베트남어
-                            아랍어
+                    <Accordion.Collapse eventKey="19">
+                        <Card.Body  style={{padding:0}}>
+                        <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='20' setTitle = {setTitle}>
+                                        독일어
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='21' setTitle = {setTitle}>
+                                        프랑스어
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='22' setTitle = {setTitle}>
+                                        스페인어
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='23' setTitle = {setTitle}>
+                                        중국어
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='24' setTitle = {setTitle}>
+                                        일본어
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='25' setTitle = {setTitle}>
+                                        러시아어
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='26' setTitle = {setTitle}>
+                                        아랍어
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='27' setTitle = {setTitle}>
+                                        베트남어
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
+                            <Card>
+                                <Card.Header style={{padding:0}}>
+                                    <SidebarButton eventKey='28' setTitle = {setTitle}>
+                                        한문
+                                    </SidebarButton>
+                                </Card.Header>
+                            </Card>
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
