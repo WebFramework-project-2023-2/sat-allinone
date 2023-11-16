@@ -5,7 +5,7 @@ import styles from "../../styles/Main.css"
 const Footer = () =>{
     return (
         <footer className={`${styles.footer} bg-dark text-light`}>
-            <Container>
+            <Container style={{marginLeft : '300px'}}>
                 <Row>
                     <Col md={6} className="text-center">
                         <h5>수능AllinOne</h5>
