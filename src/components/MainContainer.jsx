@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar";
 import MainPraiseComponent from "./MainPraiseComponent";
 import Container from "react-bootstrap/Container";
 import Footer from "./footer/Footer";
@@ -15,7 +14,7 @@ const MainContainer = () => {
             {/* paddingBottom 값은 footer의 높이와 같아야 합니다. */}
             <NavBar />
             <div className="wrapper">
-                <div>
+                <div className="wrapper-body">
                     <MainPraiseComponent />
                     <SearchBar />
                     <MiddleContainer />
